@@ -1,0 +1,42 @@
+.section-features {
+    padding-top: 94px;
+}
+
+.section-features__cards {
+    display: flex;
+    justify-content:space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-features__item {
+    width: 270px;    
+}
+
+.section-features__img {
+    background: getColor('background-light');
+    border-radius: 4px;
+    height: 120px;
+    width: 270px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+
+.section-features__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: getColor('title-color');
+
+    margin-bottom: 10px;
+}
+
+.section-features__desc {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: getColor('primary');
+}

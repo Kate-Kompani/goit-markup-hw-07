@@ -1,4 +1,4 @@
-/* :root {
+:root {
 /* цвет заголовков - color: #212121; */
 --title-color: #212121;
 /* цвет параграфов - color: #757575; */
@@ -199,7 +199,7 @@ h1, h2, h3, h4, ul, p {
 } */
 
 /* Герой */
-.hero {
+/* .hero {
     background-image: linear-gradient(to right,
      rgba(47, 48, 58, 0.4),
      rgba(47, 48, 58, 0.4)),
@@ -211,15 +211,15 @@ h1, h2, h3, h4, ul, p {
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;    
-}
+} */
 
-.container-hero{
+/* .container-hero{
     margin: 0px auto;
     padding: 200px 15px;
     text-align: center;
-}
+} */
 
-.hero-title {
+/* .hero-title {
     text-decoration: none;
     font-weight: 900;
     font-size: 44px;
@@ -231,9 +231,9 @@ h1, h2, h3, h4, ul, p {
 
     max-width: 696px;
     margin: 0px auto 30px;
-}
+} */
 
-.hero-button {
+/* .hero-button {
     color: #FFFFFF;
     background-color: var(--accent);
     font-weight: bold;
@@ -245,14 +245,14 @@ h1, h2, h3, h4, ul, p {
     border: 0px;
     border-radius: 4px;
     padding: 10px 32px;
-}
+} */
 
 /* Преимущества */
-.section-advantages {
+/* .section-advantages {
     padding-top: 94px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -263,33 +263,33 @@ h1, h2, h3, h4, ul, p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
-.card-advantages {
+/* .card-advantages {
     display: flex;
     justify-content:space-between;
     margin: 0px;
     padding: 0px;
-}
+} */
 
-.card-advantages-item {
+/* .card-advantages-item {
     width: 270px;    
-}
+} */
 
-.card-advantages-item:not(:last-child) {
+/* .card-advantages-item:not(:last-child) {
     margin-right: 30px;
-}
+} */
 
-.advantages-img {
+/* .advantages-img {
     background: var(--other-background-color);
     border-radius: 4px;
     height: 120px;
     width: 270px;
     padding: 25px 100px;
     margin-bottom: 30px;
-}
+} */
 
-.advantages {
+/* .advantages {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -298,19 +298,19 @@ h1, h2, h3, h4, ul, p {
     color: var(--title-color);
 
     margin-bottom: 10px;
-}
+} */
 
-.advantages-description {
+/* .advantages-description {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--text-color);    
-}
+} */
 
 /* секции Чем мы занимаемся*/
 
-.section-case {
+/* .section-case {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -324,22 +324,22 @@ h1, h2, h3, h4, ul, p {
     color: var(--title-color);
 
     margin-bottom: 50px;
-}
+} */
 
-.cards-case {
+/* .cards-case {
     display: flex;
     justify-content:space-between;
-}
+} */
 
-.card-img:not(:last-child) {
+/* .card-img:not(:last-child) {
     margin-right: 30px;
     position: relative;   
-}
+} */
 
-.card-img .thumb {
-    /* height: 294px; высоту фиксированую лучше не использовать, а применять формулы */
+/* .card-img .thumb {
     position: relative;
-}
+} */
+/* height: 294px; высоту фиксированую лучше не использовать, а применять формулы */
 
 .card-img img {
     display: block;

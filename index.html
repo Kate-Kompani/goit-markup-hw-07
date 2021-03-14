@@ -7,8 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
@@ -46,48 +44,48 @@
 
     <main>
         <!-- Герой -->
-        <section class="hero">
+        <section class="section-hero">
             <div class="hero__container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button class="hero__button" type="submit" data-modal-open>Заказать услугу</button>
+                <button class="button" type="submit" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
-        <!-- Преимущества - Заголовок для симантики - пользователю не должен видеть -->
-        <section class="section-advantages">
-            <h2 class="section-advantages-title visually-hidden">Преимущества</h2>
+        <!-- Особенности - Заголовок для симантики - пользователю не должен видеть -->
+        <section class="section-features">
+            <h2 class="visually-hidden">Преимущества</h2>
             <div class="container">
-                <ul class="card-advantages">
-                    <li class="card-advantages-item">
-                        <svg class="advantages-img">
+                <ul class="section-features__cards">
+                    <li class="section-features__item">
+                        <svg class="section-features__img">
                             <use href="./images/icons/symbol-defs.svg#antenna" width="70" height="70"> </use>
                         </svg>
-                        <h3 class="advantages">Внимание к деталям</h3>
-                        <p class="advantages-description">Идейные соображения, а также начало повседневной работы по формированию
+                        <h3 class="section-features__title">Внимание к деталям</h3>
+                        <p class="section-features__desc">Идейные соображения, а также начало повседневной работы по формированию
                             позиции.</p>
                     </li>
-                    <li class="card-advantages-item">
-                        <svg class="advantages-img"> 
+                    <li class="section-features__item">
+                        <svg class="section-features__img"> 
                             <use href="./images/icons/symbol-defs.svg#clock" width="70" height="70"> </use>
                          </svg>
-                        <h3 class="advantages">Пунктуальность</h3>
-                        <p class="advantages-description">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                        <h3 class="section-features__title">Пунктуальность</h3>
+                        <p class="section-features__desc">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.</p>
                     </li>
-                    <li class="card-advantages-item">
-                        <svg class="advantages-img">
+                    <li class="section-features__item">
+                        <svg class="section-features__img">
                             <use href="./images/icons/symbol-defs.svg#diagram" width="70" height="70"> </use>
                         </svg>
-                        <h3 class="advantages">Планирование</h3>
-                        <p class="advantages-description">Равным образом консультация с широким активом в значительной степени
+                        <h3 class="section-features__title">Планирование</h3>
+                        <p class="section-features__desc">Равным образом консультация с широким активом в значительной степени
                             обуславливает.</p>
                     </li>
-                    <li class="card-advantages-item">
-                        <svg class="advantages-img">
+                    <li class="section-features__item">
+                        <svg class="section-features__img">
                             <use href="./images/icons/symbol-defs.svg#astronaut" width="70" height="70"> </use>
                         </svg>
-                        <h3 class="advantages">Современные технологии</h3>
-                        <p class="advantages-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                        <h3 class="section-features__title">Современные технологии</h3>
+                        <p class="section-features__desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
                     </li>
                 </ul>
@@ -98,24 +96,24 @@
         <!-- Чем мы занимаемся -->
         <section class="section-case">
             <div class="container">
-                <h2 class="section-case-title">Чем мы занимаемся</h2>
-                <ul class="cards-case">
-                    <li class="card-img">
-                        <div class="thumb">
+                <h2 class="section-case__title">Чем мы занимаемся</h2>
+                <ul class="section-case__cards">
+                    <li class="section-case__item">
+                        <div class="section-case__thumb">
                             <img src="./images/main/design.jpg" alt="Десктопное приложение">
-                            <p class="inscription">Десктопные приложения</p>
+                            <p class="section-case__inscription">Десктопные приложения</p>
                         </div>                        
                     </li>
-                    <li class="card-img">
-                        <div class="thumb">
+                    <li class="section-case__item">
+                        <div class="section-case__thumb">
                             <img src="./images/main/synchronization.jpg" alt="Мобильное приложение">
-                            <p class="inscription">Мобильные приложения</p>
+                            <p class="section-case__inscription">Мобильные приложения</p>
                         </div>                        
                     </li>
-                    <li class="card-img">
-                        <div class="thumb">
+                    <li class="section-case__item">
+                        <div class="section-case__thumb">
                             <img src="./images/main/design.jpg" alt="Дизайнерские решения">
-                            <p class="inscription">Дизайнерские решения</p> 
+                            <p class="section-case__inscription">Дизайнерские решения</p> 
                         </div>
                     </li>                                               
                 </ul>
