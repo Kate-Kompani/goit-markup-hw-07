@@ -478,13 +478,13 @@ h1, h2, h3, h4, ul, p {
   margin-right: auto;
 }
 
-.hero__container {
+.section-hero__container {
   margin: 0px auto;
   text-align: center;
   padding: 200px 0;
 }
 
-.hero__title {
+.section-hero__title {
   text-decoration: none;
   font-weight: 900;
   font-size: 44px;
@@ -605,5 +605,36 @@ h1, h2, h3, h4, ul, p {
   text-transform: uppercase;
   color: #FFFFFF;
   padding: 27px 0;
+}
+
+.section-team {
+  background: #F5F4FA;
+}
+
+.section-team__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-team__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.section-team__cards {
+  --set-gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px;
+  margin-left: -30px;
+  margin-top: calc(-1 * var(--set-gap));
 }
 /*# sourceMappingURL=main.css.map */

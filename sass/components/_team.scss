@@ -1,0 +1,30 @@
+.section-team {
+    background: getColor('background-light');
+}
+
+.section-team__container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-team__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('title-color');
+
+    margin-bottom: 50px;
+}
+
+.section-team__cards {
+    --set-gap: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 0px;
+    margin-left: -30px;
+    margin-top: calc(-1 * var(--set-gap));
+}
