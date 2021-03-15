@@ -19,13 +19,14 @@
     justify-content:space-between;
 }
 
-// .section-case__item {
-//     position: relative;
-// }
+.section-case__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .section-case__thumb {
     position: relative;
-    height: 294px;
 }
 
 .section-case__inscription {

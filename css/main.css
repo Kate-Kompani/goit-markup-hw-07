@@ -579,9 +579,15 @@ h1, h2, h3, h4, ul, p {
           justify-content: space-between;
 }
 
+.section-case__img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .section-case__thumb {
   position: relative;
-  height: 294px;
 }
 
 .section-case__inscription {

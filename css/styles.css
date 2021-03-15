@@ -92,10 +92,10 @@ h1, h2, h3, h4, ul, p {
     display: flex;
     align-items: center;
     margin: 0px;
-    padding: 32px 0px; */
+    padding: 32px 0px; */ 
     /* width: 294px; */
     /* justify-content: space-between; */
-}
+/* }  */
 
 /* .nav-link {
     margin-right: 50px;
@@ -341,14 +341,14 @@ h1, h2, h3, h4, ul, p {
 } */
 /* height: 294px; высоту фиксированую лучше не использовать, а применять формулы */
 
-.card-img img {
+/* .card-img img {
     display: block;
     height: 100%;
     width: 100%;
     object-fit: cover;    
-}
+} */
 
-.inscription {
+/* .inscription {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -364,7 +364,7 @@ h1, h2, h3, h4, ul, p {
     text-transform: uppercase;
     color: #FFFFFF;
     padding: 27px 0;
-}
+} */
 
 /* секция Команда */
 .section-team {background: var(--other-background-color);}
