@@ -367,14 +367,14 @@ h1, h2, h3, h4, ul, p {
 } */
 
 /* секция Команда */
-.section-team {background: var(--other-background-color);}
+/* .section-team {background: var(--other-background-color);}
 
 .section-team .container {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.section-team-title {
+/* .section-team-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -383,9 +383,9 @@ h1, h2, h3, h4, ul, p {
     color: var(--title-color);
 
     margin-bottom: 50px;
-}
+} */
 
-.cards-team {
+/* .cards-team {
     --set-gap: 30px;
 
     display: flex;
@@ -403,13 +403,13 @@ h1, h2, h3, h4, ul, p {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+} */
 
-.card img {
+/* .card img {
     object-fit: cover;
-}
+} */
 
-.personal-name {
+/* .personal-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -418,9 +418,9 @@ h1, h2, h3, h4, ul, p {
     text-align: center;
     
     margin-bottom: 10px;
-}
+} */
 
-.post {
+/* .post {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -429,21 +429,21 @@ h1, h2, h3, h4, ul, p {
     text-align: center;
 
     margin-bottom: 16px;
-}
+} */
 
-.social-icons {
+/* .social-icons {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 /* .social-icons li:not(:last-child) {
     margin-right: 10px;
 } */
 
-.social-icons-link {
+/* .social-icons-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -454,18 +454,18 @@ h1, h2, h3, h4, ul, p {
     fill: var(--icon-color);
     background-color: #ffffff;
     transition: background-color var(--duration) var(--cubic-bezier), fill var(--duration) var(--cubic-bezier);
-}
+} */
 
-.social-icons-link:hover,
+/* .social-icons-link:hover,
 .social-icons-link:focus {
     background-color: var(--accent);
     fill: #FFFFFF;
     transition: background-color var(--duration) var(--cubic-bezier), fill var(--duration) var(--cubic-bezier);
-}
+} */
 
-.team-info {
+/* .team-info {
     padding: 30px 32px;
-}
+} */
 
 /*Постоянные клиенты*/
 
