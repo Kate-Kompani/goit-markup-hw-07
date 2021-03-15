@@ -102,15 +102,15 @@
     display: flex;
     align-items: center;
 
+    &:first-child {
+    margin-right: 30px;
+    }
+
     &:hover,
     &:focus {
       color: getColor('accent');
       transition: color $duration $cubic-bezier;
     }
-}
-
-.contacts__link:first-child {
-    margin-right: 30px;
 }
 
 .contacts__icon {

@@ -469,12 +469,12 @@ h1, h2, h3, h4, ul, p {
 
 /*Постоянные клиенты*/
 
-.section-clients {
+/* .section-clients {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.section-clients-title {
+/* .section-clients-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -483,9 +483,9 @@ h1, h2, h3, h4, ul, p {
     color: var(--title-color);
 
     margin-bottom: 50px;
-}
+} */
 
-.clients {
+/* .clients {
     --set-gap: 30px;
 
     display: flex;
@@ -493,15 +493,15 @@ h1, h2, h3, h4, ul, p {
     
     margin-left: calc(-1*var(--set-gap)); 
     margin-top: calc(-1*var(--set-gap));   
-}
+} */
 
-.clients-item {
+/* .clients-item {
     flex-basis: calc(100%/6 - var(--set-gap));
     margin-left: var(--set-gap);
     margin-top: 30px;    
-}
+} */
 
-.clients-link {
+/* .clients-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -511,28 +511,28 @@ h1, h2, h3, h4, ul, p {
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     transition: color var(--duration) var(--cubic-bezier), border var(--duration) var(--cubic-bezier);
-}
+} */
 
-.clients-link:hover,
+/* .clients-link:hover,
 .clients-link:focus {
     color: var(--accent);
     border: 1px solid var(--accent);
     transition: color var(--duration) var(--cubic-bezier), border var(--duration) var(--cubic-bezier);
-}
+} */
 
-.clients-icon {
+/* .clients-icon {
     fill: currentColor;
-}
+} */
 
 
 /* Футер */
-footer {
+/* footer {
     background-color: var(--background-color);
     padding-top: 60px;
     padding-bottom: 60px;
-}
+} */
 
-.logo-web-f {
+/* .logo-web-f {
     text-decoration: none;
     font-family: Raleway;
     font-style: normal;
@@ -544,11 +544,11 @@ footer {
     
     display: block;
     margin-bottom: 20px;    
-}
+} */
 
-.logo-studio-f {color: #FFFFFF;}
+/* .logo-studio-f {color: #FFFFFF;} */
 
-.address-f,
+/* .address-f,
 .mail-f,
 .tel-f {
     text-decoration: none;
@@ -558,22 +558,22 @@ footer {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-}
+} */
 
-.address-f {
+/* .address-f {
     display: block;
     margin-bottom: 9px;
 
     color: #FFFFFF;
     
-}
+} */
 
-.mail-f,
+/* .mail-f,
 .tel-f {
     color:rgba(255, 255, 255, 0.6);
 
     display: block;
-}
+} */
 
 .mail-f {
     margin-bottom: 9px;
