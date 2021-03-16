@@ -1,4 +1,4 @@
-.backdrop-order {
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,17 +11,16 @@
     transition: opacity $duration $cubic-bezier;
 }
 
-.backdrop-order.is-hidden {
+.modal.is-hidden {
     opacity: 0;
-    pointer-events: none;
-    @extend .modal-order
+    pointer-events: none;       
 }
 
-.modal-order {
+.modal.is-hidden .modal__order {
     transform: translate(-50%, -50%) scale(1.2);
 }
 
-.modal-order {
+.modal__order {
     position: fixed;
     top: 50%;
     left: 50%;
