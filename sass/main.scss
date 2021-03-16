@@ -1,10 +1,13 @@
 @import 'utils/variables';
 @import 'utils/modern-normalize';
-@import 'index/common';
-@import 'index/header';
+@import 'general/common';
+@import 'general/header';
 @import 'index/hero';
 @import 'index/features';
 @import 'index/case';
 @import 'index/team';
 @import 'index/clients';
-@import 'index/footer';
+@import 'general/footer';
+@import 'index/modal';
+@import 'portfolio/menu';
+@import 'portfolio/grid';

@@ -47,7 +47,7 @@
         <section class="section-hero">
             <div class="section-hero__container">
                 <h1 class="section-hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button class="button" type="submit" data-modal-open>Заказать услугу</button>
+                <button class="button" type="submit" data-toggle-backdrop-order>Заказать услугу</button>
             </div>
         </section>
 
@@ -402,77 +402,73 @@
             </div>
             <form class="subscription">
                 <p class="subscription__title">Подпишитесь на рассылку</p>
-                <div>
+                <div class="subscription__box">
                     <input class="subscription__input" type="email" name="email" placeholder="E-mail" />
                     <button class="subscribe-btn" type="submit">
-                        <div>
-                            <span>Подписаться</span>
+                        <div class="subscribe-btn__content">
+                            <span class="subscribe-btn__text">Подписаться</span>
                             <svg class="subscribe-btn__icon" width="24" height="24">
                                 <use href="./images/icons/symbol-defs.svg#icon-send">
                                 </use>
                             </svg>
-                        </div>                  
+                        </div>
                     </button>
                 </div>
-                             
+    
             </form>
-        </div>        
+        </div>
     </footer>
 
-    <div data-modal class="backdrop-order is-hidden">
+    <div data-backdrop-order class="backdrop-order is-hidden">
         <div class="modal-order">
-            <button data-modal-close  class="close-button">
-                <svg class="close" width="18" height="18">
+            <button data-toggle-backdrop-order class="close-button">
+                <svg width="18" height="18">
                     <use href="./images/icons/symbol-defs.svg#close"></use>
                 </svg>
-            </button>
-            
-            <!-- Для второго варианта -->
-            <!-- В кнопу открытия и в кнопку закрытия data-toggle-backdrop-order -->
-            <!-- Для всего модального окна data-backdrop-order -->
-
+            </button>            
+           
             <form name="signup-form">
-                <p class="signup-form-title">Оставьте свои данные, мы вам перезвоним</p>
-                <label class="label" for="username">
+                <p class="signup-form__title">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="signup-form__label" for="username">
                     <span>Имя</span>
-                    <div class="data-label">
-                        <input class="data-input" type="text" name="username" id="username" />
-                        <svg class="signup-form-icons" width="18" height="18">
+                    <div class="data-input">
+                        <input class="data-input__place" type="text" name="username" id="username" />
+                        <svg class="data-input__icon" width="18" height="18">
                             <use href="./images/icons/symbol-defs.svg#person"></use>
                         </svg>
                     </div>
                 </label>
-                <label class="label">
+                <label class="signup-form__label">
                     <span>Телефон</span>
-                    <div class="data-label">
-                        <input class="data-input" type="tel" name="phone-number" />
-                        <svg class="signup-form-icons" width="18" height="18">
+                    <div class="data-input">
+                        <input class="data-input__place" type="tel" name="phone-number" />
+                        <svg class="data-input__icon" width="18" height="18">
                             <use href="./images/icons/symbol-defs.svg#phone"></use>
                         </svg>
                     </div>                    
                 </label>
-                <label class="label">
+                <label class="signup-form__label">
                     <span>Почта</span>
-                    <div class="data-label">
-                        <input class="data-input" type="email" name="email" />
-                        <svg class="signup-form-icons" width="18" height="18">
+                    <div class="data-input">
+                        <input class="data-input__place" type="email" name="email" />
+                        <svg class="data-input__icon" width="18" height="18">
                             <use href="./images/icons/symbol-defs.svg#email"></use>
                         </svg>
                     </div>                    
                 </label>
-                <label class="label">
+                <label class="signup-form__label">
                     <span>Комментарий</span>
-                    <textarea name="comments" rows="4" placeholder="Введите текст"></textarea>
+                    <textarea class="signup-form__textarea" name="comments" rows="4" placeholder="Введите текст"></textarea>
                 </label>
-                <label class="checkbox-conditions">
-                    <input class="checkbox visually-hidden" type="checkbox" name="conditions" />
-                    <svg class="icon" width="16" height="15">
+                <label class="conditions">
+                    <input class="condition__checkbox visually-hidden" type="checkbox" name="conditions" />
+                    <svg class="condition__icon" width="16" height="15">
                         <use href="./images/icons/symbol-defs.svg#icon-check"></use>                    
                     </svg>
-                    <span>Соглашаюсь с рассылкой и принимаю 
-                    <a href="#">Условия договора</a></span>
+                    <span class="conditions__text">Соглашаюсь с рассылкой и принимаю 
+                    <a class="conditions__link" href="#">Условия договора</a></span>
                 </label>
-                <button type="submit" class="send-button">Отправить</button>
+                <button type="submit" class="modal-button">Отправить</button>
             </form>
                        
         </div>        

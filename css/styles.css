@@ -575,7 +575,7 @@ h1, h2, h3, h4, ul, p {
     display: block;
 } */
 
-.mail-f {
+/* .mail-f {
     margin-bottom: 9px;
 }
 
@@ -682,7 +682,7 @@ h1, h2, h3, h4, ul, p {
 
 .subscribe-btn>span {
     margin-right: 10px;
-}
+} */
 
 /* Портфолио */
 .portfolio {
@@ -814,7 +814,7 @@ h1, h2, h3, h4, ul, p {
 }
 
 /* Модальное окно */
-.backdrop-order {
+/* .backdrop-order {
     position: fixed;
     top: 0;
     left: 0;
@@ -831,13 +831,13 @@ h1, h2, h3, h4, ul, p {
     opacity: 0;
     pointer-events: none;
     
-}
+} */
 
-.backdrop-order.is-hidden .modal-order {
+/* .backdrop-order.is-hidden .modal-order {
     transform: translate(-50%, -50%) scale(1.2);
-}
+} */
 
-.modal-order {
+/* .modal-order {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -849,9 +849,9 @@ h1, h2, h3, h4, ul, p {
     border-radius: 4px;
     background-color: #ffffff;
     padding: 40px;
-}
+} */
 
-.close-button {
+/* .close-button {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -865,15 +865,15 @@ h1, h2, h3, h4, ul, p {
     background-color: #ffffff;
 
     transition: fill var(--duration) var(--cubic-bezier);
-}
+} */
 
-.close-button:hover,
+/* .close-button:hover,
 .close-button:focus,
 .close-button:active {
     fill: var(--accent);
-}
+} */
 
-.signup-form,
+/* .signup-form
 .label {
     display: flex;
     flex-direction: column;
@@ -882,10 +882,24 @@ h1, h2, h3, h4, ul, p {
     font-size: 12px;
     line-height: 14.06px;
     letter-spacing: 0.01em;
-    color: var(--text-color);
+    color: getColor('primary');
+    color: red;
     margin-bottom: 10px;
-}
+} */
 
+/* .signup-form__title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: getColor('title-color');
+    margin-bottom: 12px;
+} */
+
+
+/* 
 .label span {
     margin-bottom: 4px;
 }
@@ -908,16 +922,7 @@ h1, h2, h3, h4, ul, p {
     outline: none;
 }
 
-.signup-form-title {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-color);
-    margin-bottom: 12px;
-}
+
 
 .data-label {
     position: relative;
@@ -951,9 +956,9 @@ h1, h2, h3, h4, ul, p {
     transition: border var(--duration) var(--cubic-bezier);
 }
 .label textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(117, 117, 117, 0.5); /* Firefox */
-}
-
+    /* color: rgba(117, 117, 117, 0.5); Firefox
+} */
+/* 
 .label textarea:hover,
 .label textarea:focus,
 .label textarea:focus-within {
@@ -1019,4 +1024,4 @@ h1, h2, h3, h4, ul, p {
 .send-button:focus {
     background-color: #188CE8;
     border: 1px solid  #188CE8;
-}
+}  */
