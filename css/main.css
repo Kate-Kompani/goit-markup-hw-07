@@ -381,14 +381,14 @@ h1, h2, h3, h4, ul, p {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-right: 50px;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link:hover, .menu__link:focus {
   color: #2196F3;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link::after {
@@ -404,20 +404,20 @@ h1, h2, h3, h4, ul, p {
   background-color: #2196F3;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link:hover::after,
 .menu__link:focus::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__link--current {
@@ -446,8 +446,8 @@ h1, h2, h3, h4, ul, p {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -462,8 +462,8 @@ h1, h2, h3, h4, ul, p {
 
 .contacts__link:hover, .contacts__link:focus {
   color: #2196F3;
-  -webkit-transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts__icon {
@@ -717,15 +717,15 @@ h1, h2, h3, h4, ul, p {
   border-radius: 50%;
   fill: #AFB1B8;
   background-color: #ffffff;
-  -webkit-transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-team__link:hover, .section-team__link:focus {
   background-color: #2196F3;
   fill: #FFFFFF;
-  -webkit-transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-clients {
@@ -776,8 +776,8 @@ h1, h2, h3, h4, ul, p {
   fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-logo__link:hover, .clients-logo__link:focus {
@@ -890,8 +890,8 @@ h1, h2, h3, h4, ul, p {
   border-radius: 50%;
   fill: #FFFFFF;
   background: rgba(255, 255, 255, 0.1);
-  -webkit-transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .invitation__link:hover, .invitation__link:focus {
@@ -969,8 +969,8 @@ h1, h2, h3, h4, ul, p {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   opacity: 1;
-  -webkit-transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop-order.is-hidden {
@@ -989,10 +989,10 @@ h1, h2, h3, h4, ul, p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 528px;
   height: 581px;
   border-radius: 4px;
@@ -1016,8 +1016,8 @@ h1, h2, h3, h4, ul, p {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button:hover, .close-button:focus, .close-button:active {
@@ -1085,8 +1085,8 @@ h1, h2, h3, h4, ul, p {
   width: 448px;
   height: 40px;
   padding-left: 42px;
-  -webkit-transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .data-input__icon {
@@ -1095,8 +1095,8 @@ h1, h2, h3, h4, ul, p {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 12px;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__textarea {
@@ -1108,8 +1108,8 @@ h1, h2, h3, h4, ul, p {
   resize: none;
   padding: 12px 16px;
   margin-top: 4px;
-  -webkit-transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-form__textarea::-webkit-input-placeholder {
@@ -1172,8 +1172,8 @@ h1, h2, h3, h4, ul, p {
 .condition__checkbox:checked + .condition__icon {
   fill: #2196F3;
   border: none;
-  -webkit-transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button {
@@ -1192,8 +1192,8 @@ h1, h2, h3, h4, ul, p {
   line-height: 30px;
   letter-spacing: 0.06em;
   color: #ffffff;
-  -webkit-transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border 2500ms cubic-bezier(0.4, 0, 0.2, 1), background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:hover, .modal-button:focus {
@@ -1238,10 +1238,10 @@ h1, h2, h3, h4, ul, p {
   border: 0px;
   padding: 6px 22px;
   border-radius: 4px;
-  -webkit-transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), color 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), color 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), color 2500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1), color 2500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter__button:hover, .filter__button:focus {
@@ -1268,19 +1268,19 @@ h1, h2, h3, h4, ul, p {
       flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
-  -webkit-transition: -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .grid__card:hover, .grid__card:focus {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06);
-  -webkit-transition: -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .grid__card:hover .grid__overlay {
@@ -1310,10 +1310,10 @@ h1, h2, h3, h4, ul, p {
   height: 100%;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
-  -webkit-transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(33, 150, 243, 0.9);
   color: #ffffff;
   padding: 63px 24px;
