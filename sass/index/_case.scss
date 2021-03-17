@@ -1,9 +1,9 @@
-.section-case {
+.case {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.section-case__title {
+.case__title {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
@@ -14,23 +14,34 @@
     margin-bottom: 50px;
 }
 
-.section-case__cards {
+.case__cards {
+    --set-gap: 30px;
+
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
+
+    margin-left: calc(-1 * var(--set-gap));
+    margin-top: calc(-1 * var(--set-gap));
 }
 
-.section-case__thumb {
+.case__item {
+    flex-basis: calc(100%/ 3 - var(--set-gap));
+    margin-left: var(--set-gap);
+    margin-top: var(--set-gap);
+}
+
+.case__thumb {
     position: relative;
     height: 294px;
 }
 
-.section-case__img {
+.case__img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.section-case__inscription {
+.case__inscription {
     position: absolute;
     bottom: 0;
     width: 100%;

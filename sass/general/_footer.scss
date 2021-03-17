@@ -71,7 +71,7 @@
     margin-bottom: 20px;
 }
 
-.invitation__social-icons {
+.invitation__socials {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -140,18 +140,15 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     text-align: center;     
-    color: #FFFFFF;     
-}
-
-.subscribe-btn__content {
+    color: #FFFFFF;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .subscribe-btn__text{
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
 
 .subscribe-btn__icon {

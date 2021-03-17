@@ -16,24 +16,24 @@
         <div class="container header__container">
             <nav class="navigation">
                 <a class="logo" href="./index.html">Web<span class="logo__studio">Studio</span></a>
-                <ul class="menu">
-                    <li><a class="menu__link" href="./index.html">Студия</a></li>
-                    <li><a class="menu__link menu__link--current" href="#">Портфолио</a></li>
-                    <li><a class="menu__link" href="#">Контакты</a></li>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="./index.html">Студия</a></li>
+                    <li class="navigation__item navigation__link--current"><a class="navigation__link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contacts">
-                <li>
-                    <a class="contacts__link" href="mailto:info@devstudio.com">
-                        <svg class="contacts__icon" width="16" height="12">
+            <ul class="header-contacts">
+                <li class="header-contacts__item">
+                    <a class="header-contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="header-contacts__icon" width="16" height="12">
                             <use href="./images/icons/symbol-defs.svg#envelope"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li>
-                    <a class="contacts__link" href="tel:+380961111111">
-                        <svg class="contacts__icon" width="10" height="16">
+                <li class="header-contacts__item">
+                    <a class="header-contacts__link" href="tel:+380961111111">
+                        <svg class="header-contacts__icon" width="10" height="16">
                             <use href="./images/icons/symbol-defs.svg#smartphone"></use>
                         </svg>
                         +38 096 111 11 11
@@ -201,7 +201,7 @@
             </div>
             <div class="invitation">
                 <p class="invitation__title">Присоединяйтесь</p>
-                <ul class="invitation__social-icons">
+                <ul class="invitation__socials">
                     <li class="invitation__item">
                         <a class="invitation__link" href="#">
                             <svg width="20" height="20">
@@ -241,13 +241,12 @@
                 <div class="subscription__box">
                     <input class="subscription__input" type="email" name="email" placeholder="E-mail" />
                     <button class="subscribe-btn" type="submit">
-                        <div class="subscribe-btn__content">
-                            <span class="subscribe-btn__text">Подписаться</span>
-                            <svg class="subscribe-btn__icon" width="24" height="24">
-                                <use href="./images/icons/symbol-defs.svg#icon-send">
-                                </use>
-                            </svg>
-                        </div>                                        
+                        <span class="subscribe-btn__text">Подписаться</span>
+                        <svg class="subscribe-btn__icon" width="24" height="24">
+                            <use href="./images/icons/symbol-defs.svg#icon-send">
+                            </use>
+                        </svg>
+    
                     </button>
                 </div>
     
